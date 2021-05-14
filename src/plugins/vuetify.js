@@ -8,4 +8,10 @@ export default new Vuetify({
   icons: {
     iconfont: 'mdi',
   },
+  breakpoint: {
+    mobileBreakpoint: 'xs',
+    thresholds: {
+      xs: 360
+    }
+  }
 });

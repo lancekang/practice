@@ -4,6 +4,7 @@ import Dashboard from '@/views/Dashboard';
 import GridSystem from '@/views/GridSystem';
 import GridListPage from '@/views/GridListPage'
 import BreakPoints from '@/views/BreakPoints'
+import Typography from '@/views/Typography'
 // import Dashboard
 
 
@@ -29,6 +30,11 @@ const routes = [
     path : '/break-points',
     name: 'BreakPoints',
     component: BreakPoints
+  },
+  {
+    path : '/typography',
+    name: 'Typography',
+    component: Typography
   },
 ]
 

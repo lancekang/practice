@@ -28,7 +28,7 @@
               Privacy Policy
             </v-card-title>
 
-            <v-card-text>
+            <v-card-text class="mt-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -46,6 +46,18 @@
             </v-card-actions>
           </v-card>
         </v-dialog>
+      </v-container>
+    </v-card>
+
+    <v-card class="mt-5">
+      <v-card-title>
+        Vuetify Breakpoint Object
+      </v-card-title>
+      <v-container class="grey lighten-3">
+        <v-card class="pa-3" outlined>
+          $vuetify.breakpoint.xs: {{$vuetify.breakpoint.xs}} <br>
+          $vuetify.breakpoint.smAndDown: {{$vuetify.breakpoint.smAndDown}}
+        </v-card>
       </v-container>
     </v-card>
   </v-container>
