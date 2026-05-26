@@ -13,7 +13,7 @@
 
     <v-card class="mt-5">
       <v-card-title>
-        $vuetify.breakpoint.mobile: {{ $vuetify.breakpoint.mobile }} {{ $vuetify.breakpoint.mobileBreakpoint }}
+        $vuetify.breakpoint.asdsadadsadsadasdamobile: {{ $vuetify.breakpoint.mobile }} {{ $vuetify.breakpoint.mobileBreakpoint }}
       </v-card-title>
       <v-container class="grey lighten-3">
         <v-dialog v-model="dialog" width="500" :fullscreen="$vuetify.breakpoint.mobile">
